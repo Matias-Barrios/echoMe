@@ -14,7 +14,8 @@ startLimitIntervalSec=60
 
 WorkingDirectory=/usr/local
 ExecStart=/usr/local/echoMe
-
+StandardOutput=/var/log/echoMe.log
+StandardError=/var/log/echoMe.log
  
 [Install]
 WantedBy=multi-user.target
